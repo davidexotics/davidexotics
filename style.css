@@ -1,0 +1,74 @@
+:root {
+   --bs-body-font-family: "Montserrat", sans-serif;
+}
+
+.dropdown-item {
+   color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.dropdown-menu-dark {
+   --bs-dropdown-border-width: 0px;
+   --bs-dropdown-link-active-bg: #343a40;
+}
+
+@media (min-width: 50em) {
+   .carousel-inner {
+      height: 75vh !important;
+   }
+}
+
+.details-color {
+   color: #208385;
+}
+
+.nav-links:hover {
+   color: #fff9;
+}
+
+.btn-bd-primary {
+   --bs-btn-border-color: #d9dee2;
+   background-color: #d9dee2;
+   color: #208385;
+}
+
+.btn-bd-primary:hover {
+   color: #ffffff;
+   background-color: #208385;
+   --bs-btn-border-color: #208385;
+   --bs-btn-active-color: #208385;
+   --bs-btn-active-bg: #208385;
+   --bs-btn-active-border-color: #208385;
+}
+
+p {
+   line-height: 2.5rem;
+   text-align: justify;
+}
+
+.footer-links {
+   color: #f8f9fa;
+}
+
+.footer-links:hover {
+   color: #208385;
+}
+
+.message-window {
+   width: 80vw;
+}
+
+.question-bubble {
+   border-radius: 50px;
+   background-color: #208385;
+   color: #fff9;
+   width: fit-content;
+   padding: 0.8em;
+}
+
+.answer-bubble {
+   border-radius: 50px;
+   background-color: #d9dee2;
+   color: #208385;
+   width: fit-content;
+   padding: 0.8em;
+}

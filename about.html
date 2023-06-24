@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>David Exotics</title>
+      <link rel="shortcut icon" href="images/logo.ico" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+         crossorigin="anonymous" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
+         rel="stylesheet" />
+      <script
+         src="https://kit.fontawesome.com/e34b7718bc.js"
+         crossorigin="anonymous"></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+         crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="lightbox.css" />
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <div class="container justify-content-center">
+            <a class="navbar-brand" href="index.html"
+               ><img src="images/logo.png" alt="logo" width="50"
+            /></a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNavDropdown"
+               aria-controls="navbarNavDropdown"
+               aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+               class="collapse navbar-collapse flex-grow-0"
+               id="navbarNavDropdown">
+               <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="index.html"
+                        >Home</a
+                     >
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">O mnie</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link fw-bold" href="offer.html">Oferta</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="caresheets.html">Opisy</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Galeria
+                     </a>
+                     <ul
+                        class="dropdown-menu dropdown-menu-dark bg-dark"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                           <a
+                              class="dropdown-item text-center"
+                              href="females.html"
+                              >Samice</a
+                           >
+                        </li>
+                        <li>
+                           <a
+                              class="dropdown-item text-center"
+                              href="males.html"
+                              >Samce</a
+                           >
+                        </li>
+                        <!--<li>
+                           <a
+                              class="dropdown-item text-center"
+                              href="other.html"
+                              >Inne zwierzęta</a
+                           >
+                        </li>
+                        <li>
+                           <a
+                              class="dropdown-item text-center"
+                              href="other.html"
+                              >Akcesoria</a
+                           >
+                        </li>-->
+                     </ul>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Kontakt</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Carousel -->
+      <div
+         id="carouselExampleControls"
+         class="carousel slide"
+         data-bs-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img
+                  src="images/carousel1.jpg"
+                  class="d-block w-100"
+                  alt="..." />
+            </div>
+            <div class="carousel-item">
+               <img
+                  src="images/carousel2.jpg"
+                  class="d-block w-100"
+                  alt="..." />
+            </div>
+            <div class="carousel-item">
+               <img
+                  src="images/carousel3.jpg"
+                  class="d-block w-100"
+                  alt="..." />
+            </div>
+            <div class="carousel-item">
+               <img
+                  src="images/carousel4.jpg"
+                  class="d-block w-100"
+                  alt="..." />
+            </div>
+         </div>
+         <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+      <!-- About -->
+      <!--David-->
+      <div class="mx-5 mt-5" id="about-me-section">
+         <hr class="featurette-divider" />
+         <h3 class="text-center details-color fw-semibold mb-0">
+            O mnie. <span class="text-muted">O mojej pasji.</span>
+         </h3>
+         <hr class="featurette-divider" />
+      </div>
+      <div class="row featurette mx-5 mt-5">
+         <div
+            class="col-md-7 order-md-2 d-flex flex-column justify-content-center">
+            <p class="lead mb-4">
+               Długo szukałem swojej drogi w terrarystce. Pierwszego ptasznika
+               zakupiłem przez interenet w wieku 12 lat. Przez ponad 10 lat
+               byłem wielkim fanem pająków, głównie ptaszników, skorpionów oraz
+               skolopendr. Po pewnym czasie nie sprawiały mi już tyle radości co
+               wcześniej, choć do dziś przeglądam oferty znajomych hodowców z
+               myślą zakupu nowego pupila. Był również etap z niesławnymi
+               karaczanami, równonogami i barwnymi chrząszczami. Przyszedł czas
+               na pierwszego gekona i przepadłem... Od tego dnia zaczęła się
+               misja pod tytułem "złap je wszystkie".
+            </p>
+         </div>
+         <div class="col-md-5 order-md-1 mb-4">
+            <img
+               class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-circle"
+               width="400"
+               height="400"
+               src="images/omnie.png"
+               role="img"
+               aria-label="Placeholder: 500x500"
+               focusable="false" />
+         </div>
+      </div>
+      <!--Company-->
+      <div class="mx-5 mb-5" id="about-company-section">
+         <hr class="featurette-divider" />
+         <h3 class="text-center details-color fw-semibold mb-0">
+            David Exotics. <span class="text-muted">O hodowli.</span>
+         </h3>
+         <hr class="featurette-divider" />
+      </div>
+      <div class="row featurette mx-5 mb-3">
+         <div
+            class="col-md-7 order-md-1 d-flex flex-column justify-content-center">
+            <p class="lead mb-4">
+               Głównym filarem hodowli są gekony orzęsione i inne gekony
+               pochodzące z Nowej Kaledonii.
+               <em class="details-color">
+                  Mniarrogekko chahoua, Rhacodactylus auriculatus, Correlophus
+                  sarasinorum, Bavaiya spp..
+               </em>
+               Podstawowym założeniem hodowli jest tworzenie zwierząt najlepszej
+               jakości, dbałość o ich zdrowie i przekazywanie jak największej
+               ilości doświaczenia kupującym. Wszytskie moje zwierzęta są
+               karmione najlepszymi, dostępnymi na rynku produktami: Pangea,
+               Repashy czy Gecko Nutrition. Suplementacje opieram na czołowej
+               marce jaką jest Nekton, przez co gekony mają zapewnioną wysoką
+               dawkę witamin do rozwoju.
+            </p>
+         </div>
+         <div class="col-md-5 order-md-2 mb-4">
+            <img
+               class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto m rounded"
+               width="400"
+               height="400"
+               src="images/logo_about.png"
+               role="img"
+               aria-label="Placeholder: 500x500"
+               focusable="false" />
+         </div>
+      </div>
+   </body>
+   <footer class="bg-dark">
+      <div class="container navbar justify-content-center">
+         <a href="https://www.facebook.com/david.exootics" target="_blank">
+            <i class="fa-brands fa-facebook-f footer-links mx-3 mt-3"></i>
+         </a>
+         <a href="https://www.instagram.com/david_exotics/" target="_blank">
+            <i class="fa-brands fa-instagram footer-links mx-3 mt-3"></i>
+         </a>
+         <a href="https://www.tiktok.com/@david_exotics" target="_blank">
+            <i class="fa-brands fa-tiktok footer-links mx-3 mt-3"></i>
+         </a>
+         <a
+            href="https://www.morphmarket.com/stores/david_exotics/?fbclid=IwAR19hG_RY24EIMO5Dz6Jll9A0HzNppNb5vBo4gvyWO5YazSjiGiKYDi4fxs"
+            target="_blank">
+            <i class="fa-solid fa-shop footer-links mx-3 mt-3"></i>
+         </a>
+      </div>
+      <div class="text-center p-2 text-light">
+         <p class="text-light text-muted text-center">
+            &copy; 2023 Wszelkie prawa zastrzeżone.<br />Made by
+            <span class="fw-bold">David Exotics</span>
+         </p>
+      </div>
+   </footer>
+</html>
